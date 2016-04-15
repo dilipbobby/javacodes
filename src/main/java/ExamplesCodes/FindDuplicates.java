@@ -26,7 +26,7 @@ public static void main(String[] args) {
 					//System.out.println(sCurrentLine);
 					String string2[]=sCurrentLine.split(";");
 					for (int i=0; i<string2.length; i++) 
-
+//add
 			         {
 			            String string=string2[i];
 			            unique.put(string,(unique.get(string) == null?1:(unique.get(string)+1)));
